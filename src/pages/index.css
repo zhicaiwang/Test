@@ -1,0 +1,118 @@
+.colorUp {
+  color: green;
+}
+
+.colorDown {
+  color: red;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.titleInfos {
+}
+
+.titleCols {
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #f2f3f6;
+}
+
+.up {
+  color: green;
+}
+
+.down {
+  color: red;
+}
+
+.up::before {
+  content: '+';
+  vertical-align: top;
+}
+
+.down::before {
+  content: '-';
+  vertical-align: top;
+}
+
+.up::after , .down::after {
+  content: '%';
+  vertical-align: top;
+}
+
+.todayStatus > h2 {
+  text-align: left;
+}
+
+.todayStatus > h2 > span {
+  margin-left: 30px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.upRate {
+  color: green;
+}
+
+.downRate {
+  color: red;
+}
+
+.todayStatusUpMap, .todayStatusDownMap {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  height: 120px;
+  background-color: #ccc;
+  width: 50px;
+}
+
+.todayStatusUp {
+  color: green;
+}
+
+.todayStatusUpMap {
+  background-color: green;
+}
+
+.todayStatusDown {
+  color: red;
+}
+
+.todayStatusDownMap {
+  background-color: red;
+}
+
+.pk {
+  font-size: 36px;
+}
+
+.bet > h2 {
+  text-align: left;
+}
+
+.history > h2 {
+  text-align: left;
+}
+
+.rules > h2 {
+  text-align: left;
+}
+
+.rules ol > li {
+  line-height: 30px;
+  text-align: left;
+}
+
+.note > h2, .note > h3 {
+  text-align: left;
+}
+
+.note ol > li {
+  line-height: 30px;
+  text-align: left;
+}
